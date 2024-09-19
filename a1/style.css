@@ -32,6 +32,7 @@ nav a h1 {
   justify-items: center;
   padding: 40px;
   row-gap: 30px; 
+  column-gap: 20px;
 }
 
 .card {
@@ -63,3 +64,8 @@ nav a h1 {
   color: white;
 }
 
+@media (max-width: 48rem) {
+  .card-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
