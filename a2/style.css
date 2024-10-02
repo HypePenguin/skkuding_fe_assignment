@@ -43,6 +43,7 @@ nav a h1 {
   border: 2px solid #56461d;
   text-decoration: none;
   padding: 16px;
+  gap: 30px;
   border-radius: 16px;
 }
 
