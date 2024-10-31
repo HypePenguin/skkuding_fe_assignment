@@ -1,4 +1,9 @@
+import { data } from '../pokemon_data'
+
 function PokemonList () {
+  const cardList = data.map((name, index) => {
+    <li key={index}>{}</li>
+  })
   return (
   <>
     <header>
@@ -9,9 +14,11 @@ function PokemonList () {
       </nav>
     </header>
     <div className="card-wrapper">
+      {
+        // 이 위치에 map으로 card component 복사하는게 꿀일듯
+      }
     </div>
 
-    <script type="module" src="./dist/card.js"></script>
   </>
   )
 }

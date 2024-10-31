@@ -1,9 +1,17 @@
+import { data, pokeInfo } from '../pokemon_data'
 
-function PokemonItem() {
+interface PokemonItemProps {
+  index: number;
+};
+
+function PokemonItem({ index } : PokemonItemProps) {
+  const pokeData : pokeInfo = data[index]
+
   return (
     <>
-      Hello world!
+      
     </>
   )
 }
+
 export default PokemonItem;

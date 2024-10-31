@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/skkuding_fe_assignment/a4/static/css/main.0510eed0.css",
+    "main.js": "/skkuding_fe_assignment/a4/static/js/main.d255e342.js",
+    "static/js/453.d6afda82.chunk.js": "/skkuding_fe_assignment/a4/static/js/453.d6afda82.chunk.js",
+    "index.html": "/skkuding_fe_assignment/a4/index.html",
+    "main.0510eed0.css.map": "/skkuding_fe_assignment/a4/static/css/main.0510eed0.css.map",
+    "main.d255e342.js.map": "/skkuding_fe_assignment/a4/static/js/main.d255e342.js.map",
+    "453.d6afda82.chunk.js.map": "/skkuding_fe_assignment/a4/static/js/453.d6afda82.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0510eed0.css",
+    "static/js/main.d255e342.js"
+  ]
+}

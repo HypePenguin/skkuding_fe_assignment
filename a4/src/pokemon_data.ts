@@ -1,4 +1,4 @@
-interface pokeInfo {
+export interface pokeInfo {
   name : string,
   height: string,
   weight: string,
@@ -13,7 +13,7 @@ interface pokeInfo {
   speed: string,
 }
 
-const data : Array<pokeInfo> = [
+export const data : Array<pokeInfo> = [
   {
     name: 'Bulbasaur',
     height: '7',
@@ -155,5 +155,3 @@ const data : Array<pokeInfo> = [
     speed: '45',
   },
 ]
-
-export default data;
